@@ -1,0 +1,12 @@
+
+
+#define ADC_NUM 4
+
+#define SAMPLE_NUM 800
+#define SAMPLE_DUR 1600
+#define SAMPLE_VALVE_ON 10
+#define SAMPLE_VALVE_OFF 12
+#define SAMPLE_PERIOD 20
+ 
+#define VALVE_SWITCH 12
+#define OLD_PUMP 13
