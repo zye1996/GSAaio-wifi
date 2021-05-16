@@ -1,3 +1,4 @@
+#include <define.h>
 #include <Arduino.h>
 #include <AIOapp.h>
 
@@ -18,5 +19,5 @@ void loop() {
 
 // mySerial.print(a);
   aiOapp.update();
-
 }
+

@@ -13,6 +13,10 @@ const uint8_t ADC_ADDRESS[] = {0x48, 0x49, 0x4a, 0x4b};
 extern SoftwareSerial mySerial; 
 const uint32_t UPDATE_INTERVAL = 500;
 
+struct AppConfig{
+    uint8_t airspeed = 80;
+    uint8_t fragspeed = 80;
+};
 
 class AIOapp {
 
@@ -32,6 +36,9 @@ class AIOapp {
         inline void update() __attribute__((always_inline));
         void pump_speed(uint8_t speed);
         
+        void fragFlow(uint8_t speed);
+        void airFlow(uint8_t speed);
+        
     private:
         Adafruit_ADS1115 adc_l[ADC_NUM];
         uint16_t _raw_data[4*ADC_NUM];
@@ -47,7 +54,7 @@ class AIOapp {
         Pump pump1;
         uint8_t p_speed=100;
         Flowmeter fmeter;
-        int16_t airflow;
+        int flowvalue;
         
 };
 

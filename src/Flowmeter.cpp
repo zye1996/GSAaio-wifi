@@ -1,3 +1,4 @@
+#include <define.h>
 #include <Flowmeter.h>
 #include <Wire.h>
 

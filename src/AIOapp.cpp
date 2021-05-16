@@ -23,7 +23,7 @@ void AIOapp::readRaw() {
     for(int i = 0; i < 4*ADC_NUM; i++){
         _raw_data[i] = adc_l[i/ADC_NUM].readADC_SingleEnded(i%ADC_NUM);
     }
-    airflow = fmeter.readflow();    
+    flowvalue = fmeter.readflow();    
 }
 
 void AIOapp::pump_speed(uint8_t speed) {
@@ -37,6 +37,17 @@ void AIOapp::fragOn() {
 /* turn off target gas */
 void AIOapp::fragOff() {
     valve_switch.turn_off();
+}
+
+void AIOapp::fragFlow(uint8_t speed) {
+    fragOn();
+    pump1.set_speed(speed);
+}
+
+/* let air gas flow */
+void AIOapp::airFlow(uint8_t speed) {
+    fragOff();
+    pump1.set_speed(speed);
 }
 
 void AIOapp::readVoltage() {
@@ -73,7 +84,7 @@ void AIOapp::printData(){
     for (int i = 0; i < ADC_NUM*4; i++){
     mySerial.print(_voltage_data[i]*0.001,7);mySerial.print(",");
     }
-    mySerial.print(airflow);
+    mySerial.print(flowvalue);
     mySerial.println();
 }
 
