@@ -24,5 +24,5 @@ void parseFragflow();
 
 void parseValveSet();
 void parsePumpPwm();
-
+void parseCommand();
 // Parse Command Function

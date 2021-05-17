@@ -51,8 +51,8 @@ class AIOapp {
         bool Sample_flag;
         int16_t sample_count = -1;
         uint16_t sample_period = 0;
-        Pump pump1;
-        uint8_t p_speed=100;
+        Pump pump;
+        AppConfig p_speed ={30, 30};
         Flowmeter fmeter;
         int flowvalue;
         

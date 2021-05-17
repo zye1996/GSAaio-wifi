@@ -1,5 +1,5 @@
 #include <serial.h>
-// #include <stdint.h>
+#include <AIOapp.h>
 // #include <Arduino.h>
 
 msgBuff rxBuff;
@@ -18,7 +18,7 @@ void parseSerial()
 {
     while(mySerial.available()) {
         rxByte = mySerial.read();
-        // DBGprintln(rxByte, HEX);
+        // mySerial.println(rxByte,HEX);
         if (!ser_escape) {
             if (rxByte == '^') {
                 rxBuff.len = 0;

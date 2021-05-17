@@ -1,7 +1,3 @@
-//
-// Created by Zhenyi Ye on 2020-01-23.
-//
-
 #include <protoc.h>
 #include <AIOapp.h>
 
@@ -15,6 +11,7 @@ AppConfig appConfig;
 // Functional Command
 void parseAirflow(){
     aiOapp.airFlow(appConfig.airspeed);
+    // mySerial.println("command accepted");
 }
 
 void parseFragflow(){

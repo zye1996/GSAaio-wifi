@@ -13,8 +13,8 @@ void AIOapp::begin(){
     _setResolution();
 
     valve_switch.begin(VALVE_SWITCH);
-    pump1.begin(OLD_PUMP);
-    pump_speed(p_speed);
+    pump.begin(PUMP);
+    pump_speed(p_speed.airspeed);
     startsample();
     fmeter.begin();
 }
@@ -27,7 +27,7 @@ void AIOapp::readRaw() {
 }
 
 void AIOapp::pump_speed(uint8_t speed) {
-    pump1.set_speed(speed);
+    pump.set_speed(speed);
 }
 
 void AIOapp::fragOn() {
@@ -41,13 +41,13 @@ void AIOapp::fragOff() {
 
 void AIOapp::fragFlow(uint8_t speed) {
     fragOn();
-    pump1.set_speed(speed);
+    pump.set_speed(p_speed.fragspeed);
 }
 
 /* let air gas flow */
 void AIOapp::airFlow(uint8_t speed) {
     fragOff();
-    pump1.set_speed(speed);
+    pump.set_speed(p_speed.airspeed);
 }
 
 void AIOapp::readVoltage() {

@@ -15,4 +15,5 @@ int Flowmeter::readflow(){
         int b = b1*256+b2;
         return b;
     }
+    
 }

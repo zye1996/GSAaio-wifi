@@ -3,7 +3,7 @@
 
 #include <SoftwareSerial.h>
 #include <Arduino.h>
-
+#include <HardwareSerial.h>
 
 // extern SoftwareSerial mySerial(5, 6);
 // #define SLAVE_SERIAL mySerial
@@ -18,11 +18,15 @@
 
 #define SAMPLE_NUM 800 //800
 #define SAMPLE_DUR 1600 //1600
-#define SAMPLE_VALVE_ON 10 //10
-#define SAMPLE_VALVE_OFF 12 //12
+#define SAMPLE_VALVE_ON 1700 //10
+#define SAMPLE_VALVE_OFF 1702 //12
 #define SAMPLE_PERIOD 20
  
 #define VALVE_SWITCH 12
 #define OLD_PUMP 13
+#define PUMP A2
+
+
+#define DEBUG_SERIAL Serial3
 
 #endif //GSAAIO_DEFINES_H
