@@ -12,6 +12,7 @@ void setup() {
   //   mySerial.begin(115200);
   // mySerial.println("Hello, world?");
   // DEBUG_SERIAL.begin(115200);
+  //test for git push
   setNewMsgCallback(parseCommand);
   mySerial.begin(115200);
   aiOapp.begin();
