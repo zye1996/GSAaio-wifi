@@ -6,51 +6,35 @@
 
 // EEPROM content 
 #define EEPROM_POS_MAGIC          0
-#define EEPROM_POS_FIRST_NAME     (EEPROM_POS_MAGIC + 2)
-#define EEPROM_POS_LAST_NAME      (EEPROM_POS_FIRST_NAME + MAX_STR_LEN)
-#define EEPROM_POS_AGE            (EEPROM_POS_LAST_NAME + MAX_STR_LEN)
-#define EEPROM_POS_GENDER         (EEPROM_POS_AGE+1)
-#define EEPROM_POS_NOTIFICATIONS  (EEPROM_POS_GENDER+1)
+#define EEPROM_POS_KP     (EEPROM_POS_MAGIC + 2)
+#define EEPROM_POS_KI      (EEPROM_POS_KP + MAX_STR_LEN)
+#define EEPROM_POS_KD            (EEPROM_POS_KI + MAX_STR_LEN)
+#define EEPROM_POS_VALVE_STATUS         (EEPROM_POS_KD+MAX_STR_LEN)
+#define EEPROM_POS_NOTIFICATIONS  (EEPROM_POS_VALVE_STATUS+MAX_STR_LEN)
 
-// write a string to EEPROM
-void userWriteStr(char * str, int ndx)
-{
-  for(uint8_t i=0; i < MAX_STR_LEN-1; i++)
-  {
-    EEPROM.update(ndx + i, str[i]);
-    if( str[i] == 0 )
-      break;
-  }
-  EEPROM.update(ndx + MAX_STR_LEN - 1, 0);
-}
+float kp=0;
+float ki=0;
+float kd=0;
+bool v_status=0; //0 on 1 off
 
-// read a string from EEPROM
-void userReadStr(char * str, int ndx)
-{
-  for(uint8_t i=0; i < MAX_STR_LEN; i++)
-  {
-    str[i] = EEPROM[ndx + i];
-  }
-}
 
 void userSetFieldCb(char * field)
 {
     // mySerial.print("4343420");
     // mySerial.println();
       String fld = field;
-  if( fld == F("KP"))
-    userWriteStr(webServer.getArgString(), EEPROM_POS_FIRST_NAME);
-  else if( fld == F("KI"))
-    userWriteStr(webServer.getArgString(), EEPROM_POS_LAST_NAME);
-  else if( fld == F("KD"))
-    EEPROM.update(EEPROM_POS_AGE, (uint8_t)webServer.getArgInt());
+  if( fld == F("KP")){
+    kp = (float)webServer.getArgFloat();}
+  else if( fld == F("KI")){
+    ki = (float)webServer.getArgFloat();}
+  else if( fld == F("KD")){
+    kd = (float)webServer.getArgFloat();}
   else if( fld == F("Valve Status"))
   {
-    String gender = webServer.getArgString();
-    EEPROM.update(EEPROM_POS_GENDER, (gender == F("on")) ? 'o' : 'f');
+    String valve_status = webServer.getArgString();
+    v_status = ((valve_status == F("on")) ? 0 : 1);
   }
-  else if( fld == F("notifications"))
-    EEPROM.update(EEPROM_POS_NOTIFICATIONS, webServer.getArgBoolean());
+
     // mySerial.print("4343420"); 
     // mySerial.println();
 }
@@ -60,52 +44,37 @@ void userLoadCb(char * url)
     // mySerial.print("024420");
     // mySerial.println();
     char buf[MAX_STR_LEN];
-    userReadStr( buf, EEPROM_POS_FIRST_NAME );
-    webServer.setArgString(F("KP"), buf);
-    mySerial.print(buf); 
-    userReadStr( buf, EEPROM_POS_LAST_NAME );
-    webServer.setArgString(F("KI"), buf);
-    mySerial.print(buf); 
-    webServer.setArgInt(F("KD"), (uint8_t)EEPROM[EEPROM_POS_AGE]);
-    mySerial.print((uint8_t)EEPROM[EEPROM_POS_AGE]); 
-    webServer.setArgString(F("Valve Status"), (EEPROM[EEPROM_POS_GENDER] == 'o') ? F("on") : F("off"));
-    webServer.setArgBoolean(F("notifications"), EEPROM[EEPROM_POS_NOTIFICATIONS] != 0);
+    webServer.setArgFloat(F("KP"), kp);
+    webServer.setArgFloat(F("KI"), ki);
+    webServer.setArgFloat(F("KD"), kd);
+    webServer.setArgString(F("Valve Status"), (v_status == 0) ?  F("on") : F("off"));
     // mySerial.print("4343420"); 
-    // mySerial.println();
+    mySerial.println();
 }
 
 void PIDInit()
 {
-  uint16_t magic;
-  EEPROM.get(EEPROM_POS_MAGIC, magic);
 
-  if( magic != MAGIC ) // EEPROM is uninitialized?
-  {
-    magic = MAGIC;
-    // set default values
-    EEPROM.put(EEPROM_POS_MAGIC, magic);
-    EEPROM.update(EEPROM_POS_FIRST_NAME, 0);
-    EEPROM.update(EEPROM_POS_LAST_NAME, 0);
-    EEPROM.update(EEPROM_POS_AGE, 0);
-    EEPROM.update(EEPROM_POS_GENDER, 'f');
-    EEPROM.update(EEPROM_POS_NOTIFICATIONS, 0);
-  }
 
-  URLHandler *userPageHandler = webServer.createURLHandler(F("/test1.html.json"));
-  userPageHandler->setFieldCb.attach(userSetFieldCb);
-  userPageHandler->loadCb.attach(userLoadCb);
+  URLHandler *pidPageHandler = webServer.createURLHandler(F("/Test7.html.json"));
+  pidPageHandler->setFieldCb.attach(userSetFieldCb);
+  pidPageHandler->loadCb.attach(userLoadCb);
 }
 
 void printloop(){
-    char buf[MAX_STR_LEN];
-    userReadStr(buf, EEPROM_POS_FIRST_NAME );
-    webServer.setArgString(F("KP"), buf);
-    mySerial.print(buf); 
-    userReadStr( buf, EEPROM_POS_LAST_NAME );
-    webServer.setArgString(F("KI"), buf);
-    mySerial.print(buf); 
-    webServer.setArgInt(F("KD"), (uint8_t)EEPROM[EEPROM_POS_AGE]);
-    mySerial.print((uint8_t)EEPROM[EEPROM_POS_AGE]);
-    mySerial.print("024420"); 
+    // webServer.setArgInt(F("KP"), (float)EEPROM[EEPROM_POS_KP]);
+    // mySerial.print((float)EEPROM[EEPROM_POS_KP]); 
+    // webServer.setArgInt(F("KI"), (float)EEPROM[EEPROM_POS_KI]);
+    // mySerial.print((float)EEPROM[EEPROM_POS_KI]); 
+    // webServer.setArgInt(F("KD"), (float)EEPROM[EEPROM_POS_KD]);
+    // mySerial.print((float)EEPROM[EEPROM_POS_KD]); 
+    // mySerial.print("4343420"); 
+    mySerial.print(ki);
+    mySerial.print(",");
+    mySerial.print(kp);
+    mySerial.print(",");
+    mySerial.print(kd);
+    mySerial.print(",");
     mySerial.println();
+    delay(50);
 }

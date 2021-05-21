@@ -13,7 +13,10 @@ extern ELClient esp;
 extern ELClientWebServer webServer;
 
 void PIDInit();
+void userSetFieldCb();
+void userLoadCb();
 void printloop();
+
 
 
 #endif /* PAGES_H */
