@@ -1,0 +1,4 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=adafruit_feather_f405 -G "CodeBlocks - Unix Makefiles" /Users/yzy/CLionProjects/GSAaio-wifi
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/yzy/CLionProjects/GSAaio-wifi/cmake-build-adafruit_feather_f405
