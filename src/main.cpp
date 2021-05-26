@@ -1,18 +1,14 @@
 #include <define.h>
+#include <SPI.h>
 #include <Arduino.h>
-#include <AIOapp.h>
-#include <protoc.h>
+#include "AIOapp.h"
+#include "protoc.h"
 #include <SoftwareSerial.h>
 
-AIOapp aiOapp;
-
+extern SoftwareSerial mySerial;
+AIOapp aiOapp(mySerial, Serial);
 
 void setup() {
-  // put your setup code here, to run once:
-  //   mySerial.begin(115200);
-  // mySerial.println("Hello, world?");
-  // DEBUG_SERIAL.begin(115200);
-  //test for git push
   setNewMsgCallback(parseCommand);
   mySerial.begin(115200);
   aiOapp.begin();
@@ -23,5 +19,6 @@ void loop() {
 
 // mySerial.print(a);
   aiOapp.update();
+
   parseSerial();
 }

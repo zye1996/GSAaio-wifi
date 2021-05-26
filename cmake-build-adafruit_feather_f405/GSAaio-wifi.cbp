@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GSAaio-wifi"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/yzy/CLionProjects/GSAaio-wifi/cmake-build-adafruit_feather_f405"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yzy/CLionProjects/GSAaio-wifi/cmake-build-adafruit_feather_f405/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yzy/CLionProjects/GSAaio-wifi/cmake-build-adafruit_feather_f405/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yzy/CLionProjects/GSAaio-wifi/cmake-build-adafruit_feather_f405/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yzy/CLionProjects/GSAaio-wifi/cmake-build-adafruit_feather_f405/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/yzy/CLionProjects/GSAaio-wifi/cmake-build-adafruit_feather_f405"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yzy/CLionProjects/GSAaio-wifi/cmake-build-adafruit_feather_f405/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yzy/CLionProjects/GSAaio-wifi/cmake-build-adafruit_feather_f405/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yzy/CLionProjects/GSAaio-wifi/cmake-build-adafruit_feather_f405/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yzy/CLionProjects/GSAaio-wifi/cmake-build-adafruit_feather_f405/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/yzy/CLionProjects/GSAaio-wifi/cmake-build-adafruit_feather_f405"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yzy/CLionProjects/GSAaio-wifi/cmake-build-adafruit_feather_f405/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yzy/CLionProjects/GSAaio-wifi/cmake-build-adafruit_feather_f405/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yzy/CLionProjects/GSAaio-wifi/cmake-build-adafruit_feather_f405/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yzy/CLionProjects/GSAaio-wifi/cmake-build-adafruit_feather_f405/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Z_DUMMY_TARGET">
+				<Option output="/Users/yzy/CLionProjects/GSAaio-wifi/cmake-build-adafruit_feather_f405/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yzy/CLionProjects/GSAaio-wifi/cmake-build-adafruit_feather_f405"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/yzy/CLionProjects/GSAaio-wifi/include"/>
+					<Add directory="/Users/yzy/CLionProjects/GSAaio-wifi/src"/>
+					<Add directory="/Users/yzy/CLionProjects/GSAaio-wifi/lib/protoc"/>
+					<Add directory="/Users/yzy/CLionProjects/GSAaio-wifi/lib/AIOapp"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/libraries/SoftwareSerial/src"/>
+					<Add directory="/Users/yzy/CLionProjects/GSAaio-wifi/lib/SensorBoard"/>
+					<Add directory="/Users/yzy/CLionProjects/GSAaio-wifi/lib/FlowController"/>
+					<Add directory="/Users/yzy/CLionProjects/GSAaio-wifi/lib/actuator"/>
+					<Add directory="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit ADS1X15"/>
+					<Add directory="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit BusIO"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/libraries/SPI/src"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/libraries/Wire/src"/>
+					<Add directory="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/PID"/>
+					<Add directory="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/cores/arduino/avr"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/LL"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/usb"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/OpenAMP"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/usb/hid"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/usb/cdc"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/system/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/system/Drivers/STM32F4xx_HAL_Driver/Src"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/system/STM32F4xx"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/system/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/system/Middlewares/ST/STM32_USB_Device_Library/Core/Src"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP/open-amp/lib/include"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP/libmetal/lib/include"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP/virtual_driver"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-cmsis/CMSIS/Core/Include"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/system/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/system/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-cmsis/CMSIS/DSP/Include"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/cores/arduino"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/variants/FEATHER_F405"/>
+					<Add directory="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/libraries/CMSIS_DSP/src"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/libraries/EEPROM/src"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/libraries/IWatchdog/src"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/libraries/Keyboard/src"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/libraries/Mouse/src"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/libraries/Servo/src"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/libraries/SrcWrapper/src"/>
+					<Add directory="/Users/yzy/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/9.2.1"/>
+					<Add directory="/Users/yzy/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
+					<Add directory="/Users/yzy/.platformio/packages/toolchain-gccarmnoneeabi/lib/gcc/arm-none-eabi/9.2.1/include"/>
+					<Add directory="/Users/yzy/.platformio/packages/toolchain-gccarmnoneeabi/lib/gcc/arm-none-eabi/9.2.1/include-fixed"/>
+					<Add directory="/Users/yzy/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yzy/CLionProjects/GSAaio-wifi/cmake-build-adafruit_feather_f405/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yzy/CLionProjects/GSAaio-wifi/cmake-build-adafruit_feather_f405/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yzy/CLionProjects/GSAaio-wifi/cmake-build-adafruit_feather_f405/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yzy/CLionProjects/GSAaio-wifi/cmake-build-adafruit_feather_f405/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Z_DUMMY_TARGET/fast">
+				<Option output="/Users/yzy/CLionProjects/GSAaio-wifi/cmake-build-adafruit_feather_f405/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yzy/CLionProjects/GSAaio-wifi/cmake-build-adafruit_feather_f405"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/yzy/CLionProjects/GSAaio-wifi/include"/>
+					<Add directory="/Users/yzy/CLionProjects/GSAaio-wifi/src"/>
+					<Add directory="/Users/yzy/CLionProjects/GSAaio-wifi/lib/protoc"/>
+					<Add directory="/Users/yzy/CLionProjects/GSAaio-wifi/lib/AIOapp"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/libraries/SoftwareSerial/src"/>
+					<Add directory="/Users/yzy/CLionProjects/GSAaio-wifi/lib/SensorBoard"/>
+					<Add directory="/Users/yzy/CLionProjects/GSAaio-wifi/lib/FlowController"/>
+					<Add directory="/Users/yzy/CLionProjects/GSAaio-wifi/lib/actuator"/>
+					<Add directory="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit ADS1X15"/>
+					<Add directory="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit BusIO"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/libraries/SPI/src"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/libraries/Wire/src"/>
+					<Add directory="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/PID"/>
+					<Add directory="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/cores/arduino/avr"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/LL"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/usb"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/OpenAMP"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/usb/hid"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/usb/cdc"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/system/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/system/Drivers/STM32F4xx_HAL_Driver/Src"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/system/STM32F4xx"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/system/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/system/Middlewares/ST/STM32_USB_Device_Library/Core/Src"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP/open-amp/lib/include"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP/libmetal/lib/include"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP/virtual_driver"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-cmsis/CMSIS/Core/Include"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/system/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/system/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-cmsis/CMSIS/DSP/Include"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/cores/arduino"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/variants/FEATHER_F405"/>
+					<Add directory="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/libraries/CMSIS_DSP/src"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/libraries/EEPROM/src"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/libraries/IWatchdog/src"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/libraries/Keyboard/src"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/libraries/Mouse/src"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/libraries/Servo/src"/>
+					<Add directory="/Users/yzy/.platformio/packages/framework-arduinoststm32/libraries/SrcWrapper/src"/>
+					<Add directory="/Users/yzy/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/9.2.1"/>
+					<Add directory="/Users/yzy/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
+					<Add directory="/Users/yzy/.platformio/packages/toolchain-gccarmnoneeabi/lib/gcc/arm-none-eabi/9.2.1/include"/>
+					<Add directory="/Users/yzy/.platformio/packages/toolchain-gccarmnoneeabi/lib/gcc/arm-none-eabi/9.2.1/include-fixed"/>
+					<Add directory="/Users/yzy/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yzy/CLionProjects/GSAaio-wifi/cmake-build-adafruit_feather_f405/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yzy/CLionProjects/GSAaio-wifi/cmake-build-adafruit_feather_f405/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yzy/CLionProjects/GSAaio-wifi/cmake-build-adafruit_feather_f405/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yzy/CLionProjects/GSAaio-wifi/cmake-build-adafruit_feather_f405/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Debug">
+				<Option working_dir="/Users/yzy/CLionProjects/GSAaio-wifi/cmake-build-adafruit_feather_f405"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yzy/CLionProjects/GSAaio-wifi/cmake-build-adafruit_feather_f405/Makefile&quot;  VERBOSE=1 Debug"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yzy/CLionProjects/GSAaio-wifi/cmake-build-adafruit_feather_f405/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yzy/CLionProjects/GSAaio-wifi/cmake-build-adafruit_feather_f405/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yzy/CLionProjects/GSAaio-wifi/cmake-build-adafruit_feather_f405/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Production">
+				<Option working_dir="/Users/yzy/CLionProjects/GSAaio-wifi/cmake-build-adafruit_feather_f405"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yzy/CLionProjects/GSAaio-wifi/cmake-build-adafruit_feather_f405/Makefile&quot;  VERBOSE=1 Production"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yzy/CLionProjects/GSAaio-wifi/cmake-build-adafruit_feather_f405/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yzy/CLionProjects/GSAaio-wifi/cmake-build-adafruit_feather_f405/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yzy/CLionProjects/GSAaio-wifi/cmake-build-adafruit_feather_f405/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit ADS1X15/.git/.piopm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit ADS1X15/.git/hooks/applypatch-msg.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit ADS1X15/.git/hooks/commit-msg.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit ADS1X15/.git/hooks/fsmonitor-watchman.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit ADS1X15/.git/hooks/post-update.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit ADS1X15/.git/hooks/pre-applypatch.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit ADS1X15/.git/hooks/pre-commit.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit ADS1X15/.git/hooks/pre-merge-commit.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit ADS1X15/.git/hooks/pre-push.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit ADS1X15/.git/hooks/pre-rebase.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit ADS1X15/.git/hooks/pre-receive.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit ADS1X15/.git/hooks/prepare-commit-msg.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit ADS1X15/.git/hooks/update.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit ADS1X15/.git/refs/tags/2.1.1">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit ADS1X15/.github/ISSUE_TEMPLATE.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit ADS1X15/.github/PULL_REQUEST_TEMPLATE.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit ADS1X15/.github/workflows/githubci.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit ADS1X15/Adafruit_ADS1X15.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit ADS1X15/Adafruit_ADS1X15.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit ADS1X15/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit ADS1X15/examples/comparator/comparator.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit ADS1X15/examples/differential/differential.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit ADS1X15/examples/singleended/singleended.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit ADS1X15/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit ADS1X15/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit ADS1X15/license.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit BusIO/.github/ISSUE_TEMPLATE.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit BusIO/.github/PULL_REQUEST_TEMPLATE.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit BusIO/.github/workflows/githubci.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit BusIO/.piopm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit BusIO/Adafruit_BusIO_Register.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit BusIO/Adafruit_BusIO_Register.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit BusIO/Adafruit_I2CDevice.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit BusIO/Adafruit_I2CDevice.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit BusIO/Adafruit_I2CRegister.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit BusIO/Adafruit_SPIDevice.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit BusIO/Adafruit_SPIDevice.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit BusIO/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit BusIO/examples/i2c_address_detect/i2c_address_detect.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit BusIO/examples/i2c_readwrite/i2c_readwrite.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit BusIO/examples/i2c_registers/i2c_registers.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit BusIO/examples/i2corspi_register/i2corspi_register.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit BusIO/examples/spi_modetest/spi_modetest.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit BusIO/examples/spi_readwrite/spi_readwrite.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit BusIO/examples/spi_register_bits/spi_register_bits.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit BusIO/examples/spi_registers/spi_registers.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/Adafruit BusIO/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/.piopm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/ELClient.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/ELClient.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/ELClientCmd.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/ELClientCmd.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/ELClientMqtt.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/ELClientMqtt.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/ELClientResponse.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/ELClientResponse.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/ELClientRest.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/ELClientRest.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/ELClientSocket.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/ELClientSocket.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/ELClientWebServer.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/ELClientWebServer.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/FP.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/FP.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/examples/arduino.mk">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/examples/demo/.dep/demo.ino.dep">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/examples/demo/.dep/temperature.ino.dep">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/examples/demo/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/examples/demo/demo.hex">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/examples/demo/demo.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/examples/mqtt/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/examples/mqtt/mqtt.hex">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/examples/mqtt/mqtt.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/examples/rest/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/examples/rest/rest.hex">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/examples/rest/rest.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/examples/tcp_client/tcp_client.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/examples/tcp_client_resp/tcp_client_resp.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/examples/tcp_server/tcp_server.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/examples/test-reset/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/examples/test-reset/test.hex">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/examples/test-reset/test.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/examples/thingspeak/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/examples/thingspeak/thingspeak.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/examples/udp/udp.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/examples/webserver_controls/LED.html">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/examples/webserver_controls/LedPage.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/examples/webserver_controls/Pages.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/examples/webserver_controls/User.html">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/examples/webserver_controls/UserPage.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/examples/webserver_controls/Voltage.html">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/examples/webserver_controls/VoltagePage.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/examples/webserver_controls/webserver_controls.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/examples/webserver_led/SimpleLED.html">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/examples/webserver_led/webserver_led.hex">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/examples/webserver_led/webserver_led.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient/library.json">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/.piopm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/ELClient.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/ELClient.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/ELClientCmd.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/ELClientCmd.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/ELClientMqtt.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/ELClientMqtt.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/ELClientResponse.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/ELClientResponse.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/ELClientRest.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/ELClientRest.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/ELClientSocket.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/ELClientSocket.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/ELClientWebServer.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/ELClientWebServer.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/FP.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/FP.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/examples/arduino.mk">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/examples/demo/.dep/demo.ino.dep">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/examples/demo/.dep/temperature.ino.dep">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/examples/demo/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/examples/demo/demo.hex">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/examples/demo/demo.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/examples/mqtt/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/examples/mqtt/mqtt.hex">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/examples/mqtt/mqtt.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/examples/rest/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/examples/rest/rest.hex">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/examples/rest/rest.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/examples/tcp_client/tcp_client.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/examples/tcp_client_resp/tcp_client_resp.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/examples/tcp_server/tcp_server.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/examples/test-reset/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/examples/test-reset/test.hex">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/examples/test-reset/test.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/examples/thingspeak/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/examples/thingspeak/thingspeak.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/examples/udp/udp.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/examples/webserver_controls/LED.html">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/examples/webserver_controls/LedPage.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/examples/webserver_controls/Pages.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/examples/webserver_controls/User.html">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/examples/webserver_controls/UserPage.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/examples/webserver_controls/Voltage.html">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/examples/webserver_controls/VoltagePage.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/examples/webserver_controls/webserver_controls.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/examples/webserver_led/SimpleLED.html">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/examples/webserver_led/webserver_led.hex">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/examples/webserver_led/webserver_led.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/ELClient@src-e2c0ec61fbd0b994ec6fe5cedef0a859/library.json">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/PID/.git/.piopm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/PID/.git/hooks/applypatch-msg.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/PID/.git/hooks/commit-msg.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/PID/.git/hooks/fsmonitor-watchman.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/PID/.git/hooks/post-update.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/PID/.git/hooks/pre-applypatch.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/PID/.git/hooks/pre-commit.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/PID/.git/hooks/pre-merge-commit.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/PID/.git/hooks/pre-push.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/PID/.git/hooks/pre-rebase.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/PID/.git/hooks/pre-receive.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/PID/.git/hooks/prepare-commit-msg.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/PID/.git/hooks/update.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/PID/PID_v1.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/PID/PID_v1.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/PID/README.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/PID/examples/PID_AdaptiveTunings/PID_AdaptiveTunings.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/PID/examples/PID_Basic/PID_Basic.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/PID/examples/PID_PonM/PID_PonM.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/PID/examples/PID_RelayOutput/PID_RelayOutput.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/PID/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/PID/library.json">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/.pio/libdeps/adafruit_feather_f405/PID/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/lib/AIOapp/AIOapp.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/lib/AIOapp/AIOapp.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/lib/FlowController/FlowController.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/lib/FlowController/FlowController.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/lib/SensorBoard/BaseSensorBoard.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/lib/SensorBoard/SensorBoard.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/lib/SensorBoard/SensorBoard.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/lib/actuator/Pump.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/lib/actuator/Pump.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/lib/actuator/Valve.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/lib/actuator/Valve.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/lib/protoc/protoc.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/lib/protoc/protoc.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/lib/protoc/serial.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/lib/protoc/serial.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/src/.DS_Store">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/src/configWeb.html">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/src/main.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/yzy/CLionProjects/GSAaio-wifi/CMakeListsPrivate.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
