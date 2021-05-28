@@ -2,11 +2,12 @@
 #define GSAAIO_AIOAPP_H
 
 #include <define.h>
+#include "AIOapp.h"
 #include "ELClientWebServer.h"
+#include "FlowController.h"
 #include "SensorBoard.h"
 #include "Valve.h"
 #include "Pump.h"
-#include "FlowController.h"
 
 const uint32_t UPDATE_INTERVAL = 500;
 
