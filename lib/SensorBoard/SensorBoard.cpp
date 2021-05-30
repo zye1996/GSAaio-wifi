@@ -8,9 +8,12 @@
 void SensorBoard::begin() {
     //initialization
     for (int i = 0; i < ADC_NUM; i++){
-        Adafruit_ADS1115 adc;
-        adc.setDataRate(RATE_ADS1115_128SPS);
-        adc.begin(ADC_ADDRESS[i]);
+        // Adafruit_ADS1115 adc;
+        // adc.setDataRate(RATE_ADS1115_128SPS);
+        // adc.begin(ADC_ADDRESS[i]);
+        Adafruit_ADS1115 adc(ADC_ADDRESS[i]);
+        adc.setSPS(ADS1115_DR_128SPS);
+        adc.begin();
         adc_l[i] = adc;
     }
     _setResolution();
@@ -35,6 +38,7 @@ void SensorBoard::print() {
     for (double i : _voltage_data){
         _ser->print(i*0.001,7); _ser->print(",");
     }
+    _ser->println();
 }
 
 void SensorBoard::_setResolution() {

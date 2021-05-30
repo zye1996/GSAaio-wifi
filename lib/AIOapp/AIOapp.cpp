@@ -3,8 +3,9 @@
 
 extern SoftwareSerial mySerial;
 
-void AIOapp::begin(){
+AIOapp::AIOapp(Stream *comm_ser, Stream *debug_ser):_comm_ser(comm_ser), _dbg_ser(debug_ser), sensorBoard(debug_ser){}
 
+void AIOapp::begin(){
     sensorBoard.begin();
     valve_switch.begin(VALVE_SWITCH);
     pump.begin(PUMP);
@@ -42,6 +43,7 @@ void AIOapp::airFlow(uint8_t speed) {
 }
 
 void AIOapp::printData(){
+    sensorBoard.print();
 }
 
 void AIOapp::startsample(){
