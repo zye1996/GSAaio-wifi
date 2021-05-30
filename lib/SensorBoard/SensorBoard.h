@@ -6,7 +6,7 @@
 #define GSAAIO_WIFI_SENSORBOARD_H
 
 #include "BaseSensorBoard.h"
-#include "Adafruit_ADS1X15.h"
+#include "Adafruit_ADS1015.h"
 #include "define.h"
 
 const uint8_t ADC_ADDRESS[] = {0x48, 0x49, 0x4a, 0x4b};

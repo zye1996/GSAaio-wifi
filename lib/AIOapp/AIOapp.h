@@ -18,8 +18,7 @@ struct AppConfig{
 class AIOapp {
 
     public:
-        AIOapp(Stream &comm_ser, Stream &debug_ser):
-            esp(&comm_ser), _comm_ser(&comm_ser), _dbg_ser(&debug_ser), sensorBoard(&debug_ser){};
+        AIOapp(Stream *comm_ser, Stream *debug_ser);
         void printData();
         void readSensor();
         void fragOn();
@@ -49,12 +48,12 @@ class AIOapp {
         
     private:
 
-        unsigned long last_release;
+        unsigned long last_release = 0;
         bool Sample_flag;
         int16_t sample_count = -1;
         uint16_t sample_period = 0;
 
-        ELClient esp;
+        // ELClient esp;
         Stream * _comm_ser;
         Stream * _dbg_ser;
 

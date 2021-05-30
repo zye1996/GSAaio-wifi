@@ -11,7 +11,7 @@ class Stream;
 
 class BaseSensorBoard {
 public:
-    explicit BaseSensorBoard(Stream* ser):_ser(ser){};
+    BaseSensorBoard(Stream* ser):_ser(ser){};
     virtual void begin() = 0;
     virtual void read() = 0;
     virtual void print() = 0;
